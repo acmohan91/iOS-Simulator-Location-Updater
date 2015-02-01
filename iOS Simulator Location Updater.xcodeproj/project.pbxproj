@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A359BF6E1A7DD3DE0073FACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359BF6D1A7DD3DE0073FACC /* AppDelegate.swift */; };
+		A359BF701A7DD3DE0073FACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359BF6F1A7DD3DE0073FACC /* ViewController.swift */; };
+		A359BF721A7DD3DE0073FACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A359BF711A7DD3DE0073FACC /* Images.xcassets */; };
+		A359BF751A7DD3DE0073FACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A359BF731A7DD3DE0073FACC /* Main.storyboard */; };
+		A359BF811A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359BF801A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A359BF7B1A7DD3DE0073FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A359BF601A7DD3DE0073FACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A359BF671A7DD3DE0073FACC;
+			remoteInfo = "iOS Simulator Location Updater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A359BF681A7DD3DE0073FACC /* iOS Simulator Location Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Simulator Location Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A359BF6C1A7DD3DE0073FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A359BF6D1A7DD3DE0073FACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A359BF6F1A7DD3DE0073FACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A359BF711A7DD3DE0073FACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A359BF741A7DD3DE0073FACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A359BF7A1A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Simulator Location UpdaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A359BF7F1A7DD3DE0073FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A359BF801A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Simulator_Location_UpdaterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A359BF651A7DD3DE0073FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A359BF771A7DD3DE0073FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A359BF5F1A7DD3DE0073FACC = {
+			isa = PBXGroup;
+			children = (
+				A359BF6A1A7DD3DE0073FACC /* iOS Simulator Location Updater */,
+				A359BF7D1A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests */,
+				A359BF691A7DD3DE0073FACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A359BF691A7DD3DE0073FACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A359BF681A7DD3DE0073FACC /* iOS Simulator Location Updater.app */,
+				A359BF7A1A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A359BF6A1A7DD3DE0073FACC /* iOS Simulator Location Updater */ = {
+			isa = PBXGroup;
+			children = (
+				A359BF6D1A7DD3DE0073FACC /* AppDelegate.swift */,
+				A359BF6F1A7DD3DE0073FACC /* ViewController.swift */,
+				A359BF711A7DD3DE0073FACC /* Images.xcassets */,
+				A359BF731A7DD3DE0073FACC /* Main.storyboard */,
+				A359BF6B1A7DD3DE0073FACC /* Supporting Files */,
+			);
+			path = "iOS Simulator Location Updater";
+			sourceTree = "<group>";
+		};
+		A359BF6B1A7DD3DE0073FACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A359BF6C1A7DD3DE0073FACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A359BF7D1A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A359BF801A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift */,
+				A359BF7E1A7DD3DE0073FACC /* Supporting Files */,
+			);
+			path = "iOS Simulator Location UpdaterTests";
+			sourceTree = "<group>";
+		};
+		A359BF7E1A7DD3DE0073FACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A359BF7F1A7DD3DE0073FACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A359BF671A7DD3DE0073FACC /* iOS Simulator Location Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A359BF841A7DD3DE0073FACC /* Build configuration list for PBXNativeTarget "iOS Simulator Location Updater" */;
+			buildPhases = (
+				A359BF641A7DD3DE0073FACC /* Sources */,
+				A359BF651A7DD3DE0073FACC /* Frameworks */,
+				A359BF661A7DD3DE0073FACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Simulator Location Updater";
+			productName = "iOS Simulator Location Updater";
+			productReference = A359BF681A7DD3DE0073FACC /* iOS Simulator Location Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A359BF791A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A359BF871A7DD3DE0073FACC /* Build configuration list for PBXNativeTarget "iOS Simulator Location UpdaterTests" */;
+			buildPhases = (
+				A359BF761A7DD3DE0073FACC /* Sources */,
+				A359BF771A7DD3DE0073FACC /* Frameworks */,
+				A359BF781A7DD3DE0073FACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A359BF7C1A7DD3DE0073FACC /* PBXTargetDependency */,
+			);
+			name = "iOS Simulator Location UpdaterTests";
+			productName = "iOS Simulator Location UpdaterTests";
+			productReference = A359BF7A1A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A359BF601A7DD3DE0073FACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Francesco Perrotti-Garcia";
+				TargetAttributes = {
+					A359BF671A7DD3DE0073FACC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A359BF791A7DD3DE0073FACC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A359BF671A7DD3DE0073FACC;
+					};
+				};
+			};
+			buildConfigurationList = A359BF631A7DD3DE0073FACC /* Build configuration list for PBXProject "iOS Simulator Location Updater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A359BF5F1A7DD3DE0073FACC;
+			productRefGroup = A359BF691A7DD3DE0073FACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A359BF671A7DD3DE0073FACC /* iOS Simulator Location Updater */,
+				A359BF791A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A359BF661A7DD3DE0073FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A359BF721A7DD3DE0073FACC /* Images.xcassets in Resources */,
+				A359BF751A7DD3DE0073FACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A359BF781A7DD3DE0073FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A359BF641A7DD3DE0073FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A359BF701A7DD3DE0073FACC /* ViewController.swift in Sources */,
+				A359BF6E1A7DD3DE0073FACC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A359BF761A7DD3DE0073FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A359BF811A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A359BF7C1A7DD3DE0073FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A359BF671A7DD3DE0073FACC /* iOS Simulator Location Updater */;
+			targetProxy = A359BF7B1A7DD3DE0073FACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A359BF731A7DD3DE0073FACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A359BF741A7DD3DE0073FACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A359BF821A7DD3DE0073FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A359BF831A7DD3DE0073FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A359BF851A7DD3DE0073FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iOS Simulator Location Updater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A359BF861A7DD3DE0073FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iOS Simulator Location Updater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A359BF881A7DD3DE0073FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Simulator Location UpdaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Simulator Location Updater.app/Contents/MacOS/iOS Simulator Location Updater";
+			};
+			name = Debug;
+		};
+		A359BF891A7DD3DE0073FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Simulator Location UpdaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Simulator Location Updater.app/Contents/MacOS/iOS Simulator Location Updater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A359BF631A7DD3DE0073FACC /* Build configuration list for PBXProject "iOS Simulator Location Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A359BF821A7DD3DE0073FACC /* Debug */,
+				A359BF831A7DD3DE0073FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A359BF841A7DD3DE0073FACC /* Build configuration list for PBXNativeTarget "iOS Simulator Location Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A359BF851A7DD3DE0073FACC /* Debug */,
+				A359BF861A7DD3DE0073FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A359BF871A7DD3DE0073FACC /* Build configuration list for PBXNativeTarget "iOS Simulator Location UpdaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A359BF881A7DD3DE0073FACC /* Debug */,
+				A359BF891A7DD3DE0073FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A359BF601A7DD3DE0073FACC /* Project object */;
+}
