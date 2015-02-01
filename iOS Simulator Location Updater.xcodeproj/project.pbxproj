@@ -12,6 +12,7 @@
 		A359BF721A7DD3DE0073FACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A359BF711A7DD3DE0073FACC /* Images.xcassets */; };
 		A359BF751A7DD3DE0073FACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A359BF731A7DD3DE0073FACC /* Main.storyboard */; };
 		A359BF811A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359BF801A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift */; };
+		A359BF8B1A7DDA590073FACC /* SimulatorLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359BF8A1A7DDA590073FACC /* SimulatorLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		A359BF7A1A7DD3DE0073FACC /* iOS Simulator Location UpdaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Simulator Location UpdaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A359BF7F1A7DD3DE0073FACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A359BF801A7DD3DE0073FACC /* iOS_Simulator_Location_UpdaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Simulator_Location_UpdaterTests.swift; sourceTree = "<group>"; };
+		A359BF8A1A7DDA590073FACC /* SimulatorLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorLocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				A359BF6D1A7DD3DE0073FACC /* AppDelegate.swift */,
 				A359BF6F1A7DD3DE0073FACC /* ViewController.swift */,
+				A359BF8A1A7DDA590073FACC /* SimulatorLocationManager.swift */,
 				A359BF711A7DD3DE0073FACC /* Images.xcassets */,
 				A359BF731A7DD3DE0073FACC /* Main.storyboard */,
 				A359BF6B1A7DD3DE0073FACC /* Supporting Files */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A359BF8B1A7DDA590073FACC /* SimulatorLocationManager.swift in Sources */,
 				A359BF701A7DD3DE0073FACC /* ViewController.swift in Sources */,
 				A359BF6E1A7DD3DE0073FACC /* AppDelegate.swift in Sources */,
 			);
